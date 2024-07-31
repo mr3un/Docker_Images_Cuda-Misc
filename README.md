@@ -6,7 +6,7 @@ Have you ever run into situation that your ubuntu's nv drive/cuda version was no
 
 Docker may save you from those problem! The idea is that to create container with different cuda verision so you can switch between those enviorment whatever you need. Here i create a two docker images with cuda 12.1 and 11.8 with some ML necessary package (conda, notebook, torch, pandas, numpy, scipy) for your convenience.
 
-All you have to deploy these enviorment is to install nvidia-docekr (https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) and then: 
+All you have to deploy these enviorment is to install nvidia-docker (https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) and then: 
 
 docker pull 3uun/cuda_with_misc:12.1 
 
