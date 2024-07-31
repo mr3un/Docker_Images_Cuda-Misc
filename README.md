@@ -9,7 +9,9 @@ Docker may save you from those problem! The idea is that to create container wit
 All you have to deploy these enviorment is to install nvidia-docekr (https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) and then: 
 
 docker pull 3uun/cuda_with_misc:12.1 
+
 or 
+
 docker pull 3uun/cuda_with_misc:11.8
 
 These two images was based on nvidia official 12.1.0-runtime-ubuntu22.04 and 11.8.0-cudnn8-devel-ubuntu18.04. 
