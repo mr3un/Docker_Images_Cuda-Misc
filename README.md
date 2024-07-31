@@ -15,3 +15,5 @@ or
 docker pull 3uun/cuda_with_misc:11.8
 
 These two images was based on nvidia official 12.1.0-runtime-ubuntu22.04 and 11.8.0-cudnn8-devel-ubuntu18.04. 
+
+####to do: provide a way to automatically create those image without pulling 20g from dockerhub.
